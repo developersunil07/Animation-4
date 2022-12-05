@@ -1,0 +1,62 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100%  100%;
+    background-attachment: fixed;
+}
+
+marquee img{
+   margin-top:380px;
+   margin-right:50px;
+}
+
+.img-1 img{
+    width:22%;
+}
+
+.img-2 img{
+    width:11%;
+}
+
+.img-3 img{
+    width:4%;
+}
+
+@media only screen and (max-width:1100px){
+    body{
+        background-repeat: no-repeat;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    marquee img{
+       margin-top:480px;
+       margin-right:50px;
+    }
+
+    
+    .img-1 img{
+        width:30%;
+    }
+    
+    .img-2 img{
+        width:18%;
+    }
+    
+    .img-3 img{
+        width:6%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    marquee img{
+        margin-top:385px;
+        margin-right:50px;
+     }
+}
+
+@media only screen and (max-width:400px){
+    marquee img{
+        margin-top:480px;
+        margin-right:50px;
+     }
+}
